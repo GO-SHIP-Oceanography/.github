@@ -67,4 +67,26 @@ If you have code that you would like to add, or a request for code, please
 [open an issue](https://github.com/GO-SHIP-Oceanography/.github/issues) with a
 description and your contact details.
 
-There are some guidelines for developers available in an additional document.
+There are some guidelines for developers available in an
+[additional document](contributing.md).
+
+
+## Licensing
+
+Due to their varied origins the software under the GO-SHIP organisation is provided
+under a range of different licenses.
+Please see the individual repositories for details of the license attached to a specific
+piece of software.
+
+
+## People
+
+The codes within the GO-SHIP Organization have been contributed by a number of authors.
+Please see individual repositories for details of their authors and owners.
+
+The GO-SHIP git organization is managed by 
+Jack Atkinson ([@jackatkinson1000](https://github.com/jatkinson1000)) and
+Laura Cimoli ([lcimoli](https://github.com/lcimoli)) of the
+[ICCS](https://github.com/Cambridge-ICCS).
+It was set up after Laura recognised the need for the research software on oceanographic
+cruises to be more findable and re-usable.

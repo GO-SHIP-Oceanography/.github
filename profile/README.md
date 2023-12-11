@@ -15,15 +15,17 @@ Each [repository](https://github.com/orgs/GO-SHIP-Oceanography/repositories) und
 this organisation represents a single tool for use on cruise.
 
 The sections below contain general advice for getting set on a cruise computer.  
-For a complete step-by-step guide please see the further documentation.
+For a complete step-by-step guide please see the
+[detailed setup documentation](setup.md).
 
 ### Repositories
 
 As described above, each repository in this organisation contains a specific piece
 of software.
 It is likely users will want several of these.
-We advise creating a single directory, e.g. `go-ship/` and cloning any repositories
-inside this.
+We advise creating a single directory, e.g. `go-ship/` and 
+[cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+any repositories inside this.
 
 ### Data
 
@@ -39,33 +41,12 @@ We advise using a directory `data/` adjacent to the cloned repositories in `go-s
 It is strongly advised to run any python code from GO-SHIP inside a 
 [virtual environment](https://docs.python.org/3/library/venv.html).
 This helps to isolate dependencies and keep your system clean.  
-Where possible<sup>1</sup>]
-we recommend a single virtual environment for all GO-SHIP codes.
-
-To create a virtual environment run:
-```bash
-python3 -m venv gs-venv
-```
-This will create the directory `gs-venv` with the relevant contents.  
-The environment can then be 'activated' with:
-```bash
-source gs-venv/bin/activate
-```
-and you will see `(gs-venv)` appear by your terminal prompt.  
-You can then carry out work as usual. When finished deactivate the environment with:
-```bash
-deactivate
-```
-You will need to reactivate each time you come to do work.
-It will remain exactly as you left it, with all previously installed software packages
-available.
+We recommend a single virtual environment for all GO-SHIP codes where possible.  
+If you are not familiar with virtual environments, a full step-by-step guide is provided
+in the [detailed setup documentation](setup.md).
 
 As with data, we advise placing the virtual environment adjacent to the cloned
 repositories inside `go-ship/`.
-
-<sup>1</sup> _It may be that multiple environments are required if any packages have 
-conflicting dependencies. In this case you should create a separate environment for the
-conflicting tool, and activate it instead when using that tool._
 
 ### Field preparation
 

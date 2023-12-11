@@ -70,6 +70,12 @@ description and your contact details.
 There are some guidelines for developers available in an
 [additional document](contributing.md).
 
+### Code of Conduct
+
+Everyone participating in the GO-SHIP git Organisation, is expected to treat others
+with respect and, more generally, to follow the guidelines articulated in the
+[Python Community Code of Conduct](https://www.python.org/psf/conduct/).
+
 
 ## Licensing
 

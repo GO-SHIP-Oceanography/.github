@@ -39,8 +39,7 @@ We advise using a directory `data/` adjacent to the cloned repositories in `go-s
 It is strongly advised to run any python code from GO-SHIP inside a 
 [virtual environment](https://docs.python.org/3/library/venv.html).
 This helps to isolate dependencies and keep your system clean.  
-Where possible^[It may be that multiple environments are required if any packages have 
-conflicting dependencies]
+Where possible<sup>1</sup>]
 we recommend a single virtual environment for all GO-SHIP codes.
 
 To create a virtual environment run:
@@ -63,6 +62,10 @@ available.
 
 As with data, we advise placing the virtual environment adjacent to the cloned
 repositories inside `go-ship/`.
+
+<sup>1</sup> _It may be that multiple environments are required if any packages have 
+conflicting dependencies. In this case you should create a separate environment for the
+conflicting tool, and activate it instead when using that tool._
 
 ### Field preparation
 

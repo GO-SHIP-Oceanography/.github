@@ -14,7 +14,7 @@ open to anyone to download and use.
 Each [repository](https://github.com/orgs/GO-SHIP-Oceanography/repositories) under
 this organisation represents a single tool for use on cruise.
 
-The sections below contain general advice for getting set on a cruise computer.
+The sections below contain general advice for getting set on a cruise computer.  
 For a complete step-by-step guide please see the further documentation.
 
 ### Repositories
@@ -28,9 +28,9 @@ inside this.
 ### Data
 
 A number of the scripts require large datasets, some of which overlap.
-To avoid downloading these multiple times we suggest placing them in a single location
-and pointing the scripts/programs to this location.
-Instructions on how to do this are provided in the README.md for each repository.
+To avoid downloading these multiple times we suggest placing them in a single, common
+location at which the scripts/programs point to.  
+Instructions on how to do this are provided in the documentation for each repository.
 
 We advise using a directory `data/` adjacent to the cloned repositories in `go-ship/`.
 
@@ -38,9 +38,12 @@ We advise using a directory `data/` adjacent to the cloned repositories in `go-s
 
 It is strongly advised to run any python code from GO-SHIP inside a 
 [virtual environment](https://docs.python.org/3/library/venv.html).
-This helps isolate dependencies and keep your system clean.
+This helps to isolate dependencies and keep your system clean.  
+Where possible^[It may be that multiple environments are required if any packages have 
+conflicting dependencies]
+we recommend a single virtual environment for all GO-SHIP codes.
 
-To create a virtual environment run
+To create a virtual environment run:
 ```bash
 python3 -m venv gs-venv
 ```
@@ -75,7 +78,7 @@ sure they work as expected on your computer.
 
 ## Contributions
 
-Contributions are welcome from all members of the oceanography community.
+Contributions are welcome from all members of the oceanography community.  
 If you have code that you would like to add, or a request for code, please
 [open an issue](https://github.com/GO-SHIP-Oceanography/.github/issues) with a
 description and your contact details.

@@ -61,7 +61,7 @@ However, please check with any relevant institutions or funding bodies as they m
 have restrictions on the licenses that may be used.
 
 If you are unsure about this please reach out to us and we can provide guidance.  
-A introduction to software licenses can be found in a 
+An introduction to software licenses can be found in a 
 [Code for Thought podcast episode](https://codeforthought.buzzsprout.com/1326658/11564212)
 and there is advice on selecting at [choosealicense.com](https://choosealicense.com/).
 
@@ -94,4 +94,20 @@ If you make use of one of these shared datasets we advise storing them in a dire
 for users to set the dataset location.
 
 
+## Desirables
+
+### Packaging
+
+### Testing
+
+### 
+
+
+## Adding code
+
+
+
+
 ## Code Management
+
+Adding your code 

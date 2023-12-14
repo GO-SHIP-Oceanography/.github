@@ -12,7 +12,7 @@ open to anyone to download and use.
 ## Usage
 
 Each [repository](https://github.com/orgs/GO-SHIP-Oceanography/repositories) under
-this organisation represents a single tool for use on cruise.
+this organisation represents a single tool for use on a cruise.
 
 The sections below contain general advice for getting set on a cruise computer.  
 For a complete step-by-step guide please see the
@@ -26,6 +26,10 @@ It is likely users will want several of these.
 We advise creating a single directory, e.g. `go-ship/` and 
 [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 any repositories inside this.
+
+Please note that some repositories contain software in multiple programming
+languages, such as Python, MATLAB, or spreadsheets.
+Whenever possible (and reasonable), codes are provided in all languages available.
 
 ### Data
 

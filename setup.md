@@ -83,7 +83,7 @@ using:
 git clone https://github.com/GO-SHIP-Oceanography/station_bathymetry.git
 ```
 which will create the directory `station_bathymetry/` with the code inside.  
-we can navigate to that directory using:
+We can navigate to that directory using:
 ```bash
 cd station_bathymetry
 ```

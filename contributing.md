@@ -8,14 +8,20 @@ to the GO-SHIP Organisation.
 For details on how to contribute to an existing repository please see the documentation
 of that specific repository for guidance.
 
+- [Pre-requisites](#pre-requisites)
+- [Requirements](#requirements)
+- [Code Management](#code_management)
 
 ## Pre-requisites
+
+We welcome any codes/tools that are useful for oceanographic cruise purposes.
+These can be written in any language (python, R, MATLAB etc.)
 
 If you have a code that you would like to add to the organisation please
 [open an issue](https://github.com/GO-SHIP-Oceanography/.github/issues) on this
 repository with the title `[New Code]: <Name_of_code>`.
 
-Please include a brief description of:
+Include a brief description of:
 
 - what the code does,
 - why it is beneficial to the oceanography community,
@@ -66,11 +72,16 @@ Your code should come with an appropriate Readme file.
 This should ideally be written in [Markdown](https://en.wikipedia.org/wiki/Markdown)
 and stored at the top level as `README.md`.
 
-- description
-- License information
+The Readme file should include the following information:
+
+- description of the code and what it does
+- license information
 - dependencies (other things you need to run the code)
 - installation instructions
-- usage/getting started instructions.
+- usage/getting started instructions
+- how to raise issues
+- guidelines for contributing
+- authors/managers of the code
 
 Examples of `README.md` files can be found in the existing repositories.
 
@@ -81,3 +92,6 @@ the same datasets (e.g. ocean bathymetry).
 If you make use of one of these shared datasets we advise storing them in a directory
 `data/` that is adjacent to the [setup instructions](setup.md), or providing the ability
 for users to set the dataset location.
+
+
+## Code Management

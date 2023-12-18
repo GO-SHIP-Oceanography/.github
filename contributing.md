@@ -36,6 +36,13 @@ and, if possible, assign it the "new code" tag.
 Please endeavour to make sure that your code meets the following requirements.
 If you need help with these please ask for guidance as part of the aforementioned issue.
 
+### Name
+
+When naming your code please try and choose an 'active' name that makes it clear what
+the code is used for.
+For example, a code that is used to plot bathymetry around measurement stations should
+be called something like `plot-bathymetry-at-station` rather than `plot-bathym` or `station-bathymetry` etc.
+
 ### Code
 
 Please ensure that the code is complete and runs.

@@ -11,6 +11,7 @@ of that specific repository for guidance.
 - [Pre-requisites](#pre-requisites)
 - [Requirements](#requirements)
 - [Desirables](#desirables)
+- [Adding Code](#adding-code)
 - [Code Management](#code_management)
 
 
@@ -148,9 +149,62 @@ For example, ensuring that it meets certain style, linting, documentation guidel
 or to auto-generate documentation and/or webpages.
 We are happy to support you in doing this.
 
+
 ## Adding code
 
+### Initial upload
 
+After requesting to add a new code to GO-SHIP we will create a GitHub repository with
+the bare minimum contents.
+To populate this with your code you should navigate into the folder in which it is
+installed on your computer and then run, from the terminal:
+```bash
+git init
+git remote add origin git@github.com:GO-SHIP-Oceanography/<your-go-ship-repo>.git
+git pull origin main
+```
+to pull any base documents (e.g. license).  
+_Note: This assumes you are accessing a repository via ssh (advised). If you prefer to
+access via https you can use
+`git remote add origin https://github.com/GO-SHIP-Oceanography/<your-go-ship-repo>.git`
+and will be prompted for your GitHub username and password each time you access._
+
+Following this you can add files using `[git add](https://github.com/git-guides/git-add)`,
+commit them using `[git commit](https://github.com/git-guides/git-commit)` and push them
+to the repository using `[git push](https://github.com/git-guides/git-push)` as usual.
+The [Turing Way guide](https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git)
+is a useful guide for those new to these ideas.
+
+We suggest that you perfom your initial upload from a branch, allowing the code to be
+reviewed before it is contributed to the main branch, and checked to ensure that it
+works and is reproducible.
+To do this run:
+```bash
+git checkout -b first-commit
+```
+before any `git add` or `git commit` commands.
+Then, when you are ready, run:
+```bash
+git push origin first-commit
+```
+to upload the code to GitHub.
+
+You can then open a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+from the repository webpage on GitHub to ask to add your code to the main branch.
+
+If you are unsure about any part of this process we are happy to guide you through it.
+
+### Further developments
+
+Once you have performed the initial upload of the code to the main branch of your
+repository you may wish to make further changes as features are added and
+the code is improved.
+
+We suggest any development work is done in git branches, with the updates then
+being integrated back into the main repository via a pull request once work is
+complete and the changes are reviewed.
+It is suggested, but not required, to use the features of GitHub
+(issues and pull requests) to manage this process ([see below](#code-management)).
 
 
 ## Code Management

@@ -209,3 +209,27 @@ It is suggested, but not required, to use the features of GitHub
 
 ## Code Management
 
+When you add your code to the GO-SHIP GitHub organisation you will be given a repository
+which you, unless otherwise requested, will be responsible for managing.
+If you are new to git and version control workflows for software development we are
+happy to provide assistance and advice.
+
+We suggest that users follow the conventional approach for managing software projects
+via git, with development being performed in git branches that are then merged into the
+main once work is complete via a reviewed pull request.
+
+For small projects you can add (or request addition) of trusted collaborators to the
+repository where they can perform development.
+If you have a large project with many contributors we suggest they
+[create a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+and contribute using the "fork-and-pull" approach.
+
+If at any point you need advice on code management or would like pointing to further
+resources please get in touch.
+
+### Cruise-specific code
+
+If a code needs modifying for a specific cruise in a way that is more than just a local
+change we suggest creating a branch for that cruise.
+It can then be decided at a later date whether to tisy this code and merge any updates
+back into the main repository branch.

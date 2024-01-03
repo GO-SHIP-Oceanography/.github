@@ -30,6 +30,15 @@ Include a brief description of:
 
 and, if possible, assign it the "new code" tag.
 
+We will then review the application and create a repository for you.
+Once this has been done we will support you with uploading and any initial
+review/improvements.
+
+If your code already exists under version control but you want it to be included in
+these resources please note this.
+We can either transfer the existing repository, redirect to the existing repository,
+or set up a Mirror.
+
 
 ## Requirements
 
@@ -38,10 +47,11 @@ If you need help with these please ask for guidance as part of the aforementione
 
 ### Name
 
-When naming your code please try and choose an 'active' name that makes it clear what
+When naming your code please choose an 'active' name that makes it clear what
 the code is used for.
 For example, a code that is used to plot bathymetry around measurement stations should
-be called something like `plot-bathymetry-at-station` rather than `plot-bathym` or `station-bathymetry` etc.
+be called something like `plot-bathymetry-at-station` rather than `plot-bathym` or
+`station-bathymetry` etc.
 
 ### Code
 
@@ -51,7 +61,7 @@ another machine i.e. no
 [hard-coded filepaths](https://medium.com/@jordan.l.edmunds/please-stop-hard-coding-file-paths-609c769f9537)
 etc.
 
-Do not commit binary data or large datasets.
+Avoid committing binary data or large datasets.
 Files generated during build, executables, pdfs, and large datasets generally don't
 belong in git repositories.
 Instead you should include instructions to build code and download data etc.  
@@ -71,7 +81,6 @@ If you are unsure about this please reach out to us and we can provide guidance.
 An introduction to software licenses can be found in a 
 [Code for Thought podcast episode](https://codeforthought.buzzsprout.com/1326658/11564212)
 and there is advice on selecting at [choosealicense.com](https://choosealicense.com/).
-
 
 ### Readme
 

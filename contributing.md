@@ -10,7 +10,9 @@ of that specific repository for guidance.
 
 - [Pre-requisites](#pre-requisites)
 - [Requirements](#requirements)
+- [Desirables](#desirables)
 - [Code Management](#code_management)
+
 
 ## Pre-requisites
 
@@ -112,12 +114,39 @@ for users to set the dataset location.
 
 ## Desirables
 
+In addition to the above the following are desirable qualities for research software.
+If you would like assistance with adding these to your code, either before or after the
+initial upload, please ask for assistance.
+
 ### Packaging
+
+If you can package your code to make it easy for to install this is very useful.
+This enables users to run an 'installation' procedure (e.g. `pip install` in python)
+and then 'run' your code, rather than downloading a series of files and needing to
+piece them together themselves.
+
+For python codes we suggest using a
+`[pyproject.toml](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/)`
+file. For R see [R Packages](https://r-pkgs.org/). For other languages check for the
+recommended approach or ask for advice.
 
 ### Testing
 
-### 
+Ideally codes should contain
+[some tests](https://the-turing-way.netlify.app/reproducible-research/testing)
+to ensure that they work correctly.
+We realise that this may not be necessary in all cases and codes may well have been
+written without testing.
+If you would like help with adding tests to your code this please ask for advice - we
+are happy to support you.
 
+### Continuous Integration
+
+[GitHub Actions](https://docs.github.com/en/actions) can be used to run checks on
+any code that is added to a repository.
+For example, ensuring that it meets certain style, linting, documentation guidelines,
+or to auto-generate documentation and/or webpages.
+We are happy to support you in doing this.
 
 ## Adding code
 
@@ -126,4 +155,3 @@ for users to set the dataset location.
 
 ## Code Management
 
-Adding your code 

@@ -22,7 +22,7 @@ These can be written in any language (python, R, MATLAB etc.)
 
 If you have a code that you would like to add to the organisation please
 [open an issue](https://github.com/GO-SHIP-Oceanography/.github/issues) on this
-repository with the title `[New Code]: <Name_of_code>`.
+repository using the _"New Code"_ template and title it `[New Code]: <Name_of_code>`.
 
 Include a brief description of:
 

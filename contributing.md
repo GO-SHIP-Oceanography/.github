@@ -64,7 +64,7 @@ another machine i.e. no
 [hard-coded filepaths](https://medium.com/@jordan.l.edmunds/please-stop-hard-coding-file-paths-609c769f9537)
 etc.
 
-Avoid committing binary data or large datasets.
+Try to avoid committing binary data or large datasets.
 Files generated during build, executables, pdfs, and large datasets generally don't
 belong in git repositories.
 Instead you should include instructions to build code and download data etc.  
@@ -175,7 +175,7 @@ to the repository using `[git push](https://github.com/git-guides/git-push)` as 
 The [Turing Way guide](https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git)
 is a useful guide for those new to these ideas.
 
-We suggest that you perfom your initial upload from a branch, allowing the code to be
+We suggest that you perform your initial upload from a branch, allowing the code to be
 reviewed before it is contributed to the main branch, and checked to ensure that it
 works and is reproducible.
 To do this run:
@@ -231,5 +231,5 @@ resources please get in touch.
 
 If a code needs modifying for a specific cruise in a way that is more than just a local
 change we suggest creating a branch for that cruise.
-It can then be decided at a later date whether to tisy this code and merge any updates
+It can then be decided at a later date whether to tidy this code and merge any updates
 back into the main repository branch.

@@ -121,7 +121,7 @@ initial upload, please ask for assistance.
 
 ### Packaging
 
-If you can package your code to make it easy for to install this is very useful.
+If you can package your code to make it easy to install this is very useful.
 This enables users to run an 'installation' procedure (e.g. `pip install` in python)
 and then 'run' your code, rather than downloading a series of files and needing to
 piece them together themselves.
@@ -196,9 +196,8 @@ If you are unsure about any part of this process we are happy to guide you throu
 
 ### Further developments
 
-Once you have performed the initial upload of the code to the main branch of your
-repository you may wish to make further changes as features are added and
-the code is improved.
+Once you have performed the initial upload of the code you may wish to make further
+changes as features are added and the code is improved.
 
 We suggest any development work is done in git branches, with the updates then
 being integrated back into the main repository via a pull request once work is

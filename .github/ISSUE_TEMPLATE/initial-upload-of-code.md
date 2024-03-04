@@ -1,3 +1,13 @@
+---
+name: Initial Upload of Code
+about: Use this template to open an issue on a new repo to guide users on how to upload their code for the first time.
+title: "Initial Upload of Code"
+labels: new code
+assignees: ''
+
+---
+
+
 Hi `<Insert Github User>` here is your repository for the `<Insert Code Name>` code!
 
 I have created it with an empty README.md, a .gitignore for `<Insert Language>` code, and an `<Insert License>` License.
